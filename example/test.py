@@ -4,11 +4,11 @@ from SmartApi import SmartConnect #or from smartapi.smartConnect import SmartCon
 #import smartapi.smartExceptions(for smartExceptions)
 
 #create object of call
-obj=SmartConnect(api_key="luqqitFE")
+obj=SmartConnect(api_key="")
 
 #login api call
 
-data = obj.generateSession("A59123614","8126","IJYRLZE56Y4ZKDHRJHBYRWVDCA")
+data = obj.generateSession("A59123614","","IJYRLZE56Y4ZKDHRJHBYRWVDCA")
 
 refreshToken= data['data']['refreshToken']
 
